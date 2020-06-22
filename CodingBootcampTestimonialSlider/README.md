@@ -13,5 +13,5 @@ I learned:
 - Responsive queries
 - Position elements
 
-[Link](https://frontend-mentor-projects-sand.vercel.app)
+[-> Link Project View](https://frontend-mentor-projects-sand.vercel.app)
 
