@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<img src="images\pattern-bg.svg" alt="" id="img-bg">
+<img src="images\pattern-quotes.svg" id="img-quote">
+  <div id="carContainer"class="carousel slide">
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="images\image-tanya.jpg" class="img-responsive img-testimonial" id="image-tanya" alt="image Tanya">
+    <div class="info">
+      <p id="quote-testimonial-tanya" class="quote-testimonial">“I’ve been interested in coding for a while but never taken the jump, until now.
+      I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+      excited about the future. ”</p>
+      <p id="fullname-testimonial-tanya" class="info-testimonial">Tanya Sinclair <span id="job-testimonial-tanya" class="info-testimonial-span">UX Engineer</span></p>
+  </div>
+  </div>
+    <div class="carousel-item">
+      <img src="images\image-john.jpg" class="img-responsive img-testimonial" id="image-john" alt="image John">
+      <div class="info">
+      <p id="quote-testimonial-john" class="quote-testimonial"> “If you want to lay the best foundation possible I’d recommend taking this course.
+        The depth the instructors go into is incredible. I now feel so confident about
+        starting up as a professional developer. ”</p>
+          <p id="fullname-testimonial-john"  class="info-testimonial">John Tarkpor <span id="job-testimonial-john" class="info-testimonial-span">Junior Front-end Developer</span></p>
+        </div>
+    </div>
+  </div>
+  <div class="switcher">
+   <a href="#carContainer" role="button" data-slide="prev">
+     <img id="arrow-left" class="arrow" src="images/icon-prev.svg" alt="prev">
+   </a>
+   <a href="#carContainer" role="button" data-slide="next">
+     <img id="arrow-right" class="arrow" src="images/icon-next.svg" alt="next">
+   </a>
+</div>
+  <img id="img-curve"src="images\pattern-curve.svg" alt="pattern background">
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">DARK__FOXX</a>.
+  </div>
+</body>
+</html>
